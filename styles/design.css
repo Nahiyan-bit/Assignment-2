@@ -237,7 +237,7 @@ span {
     list-style: none;
 }
 
-.career-list-two{
+.career-list-two {
     text-align: right;
 }
 
@@ -245,20 +245,77 @@ span {
     max-width: 700px;
 }
 
-.career-title{
+.career-title {
     color: #fff;
 }
 
-.career-descrip{
+.career-descrip {
     color: #fff;
     font-size: 12px;
     margin-bottom: 30px;
 }
 
-.careers-button{
+.careers-button {
     color: #FF42A5;
     background-color: #fff;
     margin-top: 25px;
     font-weight: 600;
     font-size: .9rem;
+}
+
+/* footer section style  */
+
+.footer-container {
+    background-color: #0B0223;
+    padding: 100px;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 50px;
+}
+
+.footer-logo-name{
+    color: #fff;
+}
+
+.footer-logo-img{
+    height: 30px;
+}
+
+.footer-list-one {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    margin: 50px;
+}
+
+.footer-list-one ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: .8rem;
+}
+
+.footer-list-two {
+    display: flex;
+    justify-content: center;
+    color: #9D99A7;
+    margin: 20px;
+}
+
+.footer-list-two ul{
+    display: flex;
+    list-style: none;
+    gap: 40px;
+    font-size: .7rem;
+}
+
+.copyright-description{
+    color: #9D99A7;
+    font-size: .7rem;
+    text-align: center;
 }
