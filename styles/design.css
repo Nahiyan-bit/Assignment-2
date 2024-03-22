@@ -193,6 +193,7 @@ span {
     gap: 50px;
     /* border: 2px solid olive; */
 }
+
 .play-img {
     height: 500px;
     margin-left: 100px;
@@ -210,4 +211,54 @@ span {
 
 .V-card {
     height: 250px;
+}
+
+/* careers-container styles  */
+
+.careers-container {
+    display: flex;
+    background-color: #FF42A5;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    margin-top: 80px;
+}
+
+.career-list {
+    display: flex;
+    color: #fff;
+    font-size: .8rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    gap: 50px;
+}
+
+.career-list ul {
+    list-style: none;
+}
+
+.career-list-two{
+    text-align: right;
+}
+
+.careers-img {
+    max-width: 700px;
+}
+
+.career-title{
+    color: #fff;
+}
+
+.career-descrip{
+    color: #fff;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+
+.careers-button{
+    color: #FF42A5;
+    background-color: #fff;
+    margin-top: 25px;
+    font-weight: 600;
+    font-size: .9rem;
 }
