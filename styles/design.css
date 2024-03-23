@@ -59,6 +59,7 @@ nav {
     align-items: center;
     padding: 30px 0px 20px 0px;
 }
+
 .nav1 {
     display: flex;
     justify-content: space-evenly;
@@ -72,14 +73,14 @@ nav {
     width: 130%;
 }
 
-.menu-container{
+.menu-container {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.menu-container li{
+.menu-container li {
     list-style: none;
 }
 
@@ -90,7 +91,7 @@ nav {
     font-weight: 500;
 }
 
-.follow{
+.follow {
     background-color: #E7E6E9;
     padding: 8px 12px;
     border-radius: 10px;
@@ -343,6 +344,7 @@ span {
 .footer-container {
     background-color: #0B0223;
     padding: 100px;
+    text-align: center;
 }
 
 .footer-logo {
@@ -350,7 +352,7 @@ span {
     justify-content: center;
     align-items: center;
     gap: 15px;
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .footer-logo-name {
@@ -373,6 +375,16 @@ span {
     list-style: none;
     gap: 40px;
     font-size: .8rem;
+}
+
+.btn-icon{
+    margin-bottom: 40px;
+}
+
+.btn-icon a {
+    font-size: 30px;
+    margin: 0px 15px;
+    color: #FF42A5;
 }
 
 .footer-list-two {
