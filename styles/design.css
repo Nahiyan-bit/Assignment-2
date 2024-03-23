@@ -120,7 +120,7 @@ span {
     margin-top: 20px;
 }
 
-.btn{
+.btn {
     margin-right: 10px;
 }
 
@@ -220,7 +220,7 @@ span {
     height: 250px;
 }
 
-.card-descrip{
+.card-descrip {
     font-weight: 500;
 }
 
@@ -274,6 +274,35 @@ span {
     font-size: .9rem;
 }
 
+
+/* game-type section styles  */
+
+
+.game-types-container{
+    margin: 50px;
+    padding: 30px;
+}
+
+.game-types-content {
+    display: flex;
+    justify-content: center;
+}
+
+.game-types {
+    display: flex;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+}
+
+.game-types img {
+    height: 40px;
+}
+
+.game-types-title {
+    font-size: .9rem;
+}
+
 /* footer section style  */
 
 .footer-container {
@@ -281,7 +310,7 @@ span {
     padding: 100px;
 }
 
-.footer-logo{
+.footer-logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -289,11 +318,11 @@ span {
     margin-bottom: 50px;
 }
 
-.footer-logo-name{
+.footer-logo-name {
     color: #fff;
 }
 
-.footer-logo-img{
+.footer-logo-img {
     height: 30px;
 }
 
@@ -304,7 +333,7 @@ span {
     margin: 50px;
 }
 
-.footer-list-one ul{
+.footer-list-one ul {
     display: flex;
     list-style: none;
     gap: 40px;
@@ -318,14 +347,14 @@ span {
     margin: 20px;
 }
 
-.footer-list-two ul{
+.footer-list-two ul {
     display: flex;
     list-style: none;
     gap: 40px;
     font-size: .7rem;
 }
 
-.copyright-description{
+.copyright-description {
     color: #9D99A7;
     font-size: .7rem;
     text-align: center;
