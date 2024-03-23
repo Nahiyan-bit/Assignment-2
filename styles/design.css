@@ -41,6 +41,12 @@
     margin: 10px auto;
 }
 
+.color{
+    background-image: linear-gradient( -55deg, #7F00FF 0%, #FF42A5 100%);
+    color: transparent;
+    background-clip: text;
+}
+
 /* Nav style start  */
 nav {
     display: flex;
@@ -101,7 +107,6 @@ span {
 
 .banner-title2 {
     font-size: 4.1rem;
-    color: #FF42A5;
 }
 
 .banner-content ul {
@@ -140,13 +145,8 @@ span {
     max-width: 600px;
 }
 
-.troops-content {
-    max-width: 50px;
-}
-
 .troops-content-title {
     font-size: 1.8rem;
-    color: #FF42A5;
 }
 
 .troops-content-title2 {
